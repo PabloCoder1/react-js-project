@@ -1,0 +1,11 @@
+.container .btn{
+    width: 704px;
+    height: 47px;
+    border: none;
+    border-radius: 7px;
+    background: rgba(102, 0, 146, 1);
+}
+.container .btn:hover{
+    transition: all 1.25s ease;
+    background: rgba(253, 118, 36, 1);
+}

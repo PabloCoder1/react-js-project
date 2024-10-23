@@ -1,0 +1,26 @@
+/*Login.styles.tsx*/
+/*Login.module.css*/
+/*Login.module.scss*/
+.containerBtn{
+    position: absolute;
+    top: 594px;
+    left: 16.5px;
+}
+.textTypes{
+    position: absolute;
+    top: 138px;
+    left: 1018px;
+    width: 737px;
+    height: 655px;
+    background-color: black;
+}
+.textTypes .title{
+    width: 737px;
+    height: 210px;
+    background-color: pink;
+}
+.textTypes .text{
+    width: 737px;
+    height: 306px;
+    background-color: blue;
+}

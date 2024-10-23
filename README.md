@@ -17,3 +17,5 @@
 `types`: Armazena as tipagens de typescript (types e interfaces) que são comuns em várias áreas do projeto.
 
 `utils`: Funções utilitárias como formatCurrency, formatPhone, convertTimezone, parsePhone (javascript puro).
+
+## A aplicação simula uma loja de carros

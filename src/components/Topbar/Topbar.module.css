@@ -1,0 +1,36 @@
+.container{
+    position: fixed;
+    width: 100%;
+    background: rgba(102, 0, 146, 0.5);
+    height: 63px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+.container .VivoIcon{
+    position: absolute;
+    top: 13px;
+    left: 21px;
+    width: 23px;
+    height: 32px;
+}
+.wrapper{
+    position: absolute;
+    top: 13px;
+    left: 16.91%;
+    width: 66.18%;
+    height: 37px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.02px;
+
+    display: flex; /* Ativa o flexbox */
+    justify-content: space-around; /* Distribui os links igualmente com espaço ao redor */
+    align-items: center; /* Centraliza verticalmente */
+}
+.wrapper a { /* Remove a estilização padrão dos links */
+    color: inherit; /* Herda a cor do pai (.wrapper) */
+    text-decoration: none; /* Remove o sublinhado */
+    display: flex;
+    align-items: center;
+}
