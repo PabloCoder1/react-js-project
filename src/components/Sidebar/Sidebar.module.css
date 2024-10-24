@@ -1,0 +1,29 @@
+.container{
+    position: fixed;
+    top: 309px;
+    left: 1839px;
+    background: rgba(242, 0, 145, 0.4);
+    height: 381px;
+    width: 39px;
+    border-radius: 7px;
+}
+.container .circle {
+    margin-bottom: 81px;
+    margin-left: 9.5px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    border: #f20091 solid;
+    cursor: pointer;
+  }
+  .circle:hover{
+    border: rgba(242,0,145,0.4) solid;
+  }
+  
+  .container .circle:first-child {
+    margin-top: 30px;
+  }
+  
+  .container .circle:last-child {
+    margin-bottom: 15px;
+  }
